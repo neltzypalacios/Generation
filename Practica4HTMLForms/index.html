@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Mi Pagina de formularios</title>
+    </head>
+    <body>
+        <h2>Formularios</h2>
+        <form autocomplete="off" action="resultado.html" method="POST">
+            <p>
+                Introduce tu nombre: <input type="text" id="txtNombre" name="txtNombre" required>
+            </p>
+            <p>
+                Introduce tu email: <input type="email" id="txtEmail" name="txtEmail" placeholder="miCorreo@servidor.com">
+            </p>
+            <p>
+                Introduce tu numero de telefono: <input type="tel" id="txtTelefono" name="txtTelefono">
+            </p>
+            <p>
+                Introduce tu password: <input type="password" id="txtPassword" name="txtPassword">
+            </p>
+            <p>
+                Que Lenguaje de programacion prefieres <br>
+                    <input type="radio" id="rdbLenguaje" name="rdbLenguaje" checked>Java</input>
+                    <input type="radio" id="rdbLenguaje" name="rdbLenguaje">C++</input>
+                    <input type="radio" id="rdbLenguaje" name="rdbLenguaje">C</input>
+            </p>
+            <p>
+                    Que Lenguaje de programacion prefieres <br>
+                        <input type="checkbox" id="chkLenguaje" name="chkLenguaje" checked>Java</input>
+                        <input type="checkbox" id="chkLenguaje" name="chkLenguaje">C++</input>
+                        <input type="checkbox" id="chkLenguaje" name="chkLenguaje">C</input>
+                </p>
+            <p>
+                <input type="submit" value="Dale duro campeon">
+                <input type="reset" value="Resetear">
+            </p>
+        </form>
+    </body>
+</html>
