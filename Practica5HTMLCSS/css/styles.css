@@ -1,0 +1,29 @@
+h2
+{
+    color: gray;
+}
+body
+{
+    color: navy;
+    font-size: 1rem;
+}
+#parrafo1
+{
+    background-color: steelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: lighter;
+    font: 15px italic lighter;
+}
+.pares
+{
+    background-color: rgba(204, 204, 204, 0.342);
+}
+#parrafo2
+{
+    letter-spacing: 1.2em;
+    word-spacing: 1.4em;
+    line-height: 1.5em;
+    text-align: center;
+    text-indent: 4.5em;
+}
