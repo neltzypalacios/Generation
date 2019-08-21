@@ -1,0 +1,26 @@
+header
+{
+    text-align: center;
+    margin: 25px 10px;
+}
+h2
+{
+    color: black;
+
+}
+#menuHorizontal > ul > li
+{
+    display: inline;
+    margin: 1%;
+    list-style-type: none;
+}
+#menuHorizontal
+{
+    border-radius: 10px;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+footer
+{
+    margin-top: 10px;
+}
