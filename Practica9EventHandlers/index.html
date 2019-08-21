@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function mostrarHolaMundo()
+        {
+            alert("Hola Mundo");
+            alert("Elías llama la atención");
+        }
+    </script>
+</head>
+<body>
+        <div class="container">
+                <div class="row">
+                    <header>
+                        <h2 id="titulo">Practica 9 EventHandlers</h2>
+                    </header>
+                </div>
+                <p id="parrafo1" class="parrafos" onmouseover="this.style.borderColor='black'"
+                onmouseout="this.style.borderColor='red'">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facilis quaerat earum nostrum explicabo,
+                     tempora velit cupiditate 
+                    nulla nihil enim veritatis consequatur numquam, quidem iusto quisquam voluptates illo blanditiis sequi?
+                </p>
+                <p id="parrafo2" class="parrafos">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit adipisci soluta nobis? Aliquid dignissimos aliquam animi, veritatis similique placeat officiis facere fugiat molestiae expedita est quos, quia earum impedit fugit eaque iste optio culpa nisi! Quisquam, quibusdam libero maiores corrupti sint vero illum voluptas, provident quos dicta, autem accusantium sequi velit deserunt. Adipisci dignissimos facere ad blanditiis velit incidunt aliquid magnam quibusdam neque, accusamus odit! Repudiandae nisi natus aspernatur odit consequuntur dolores, quaerat atque. Ratione, id ut voluptates cumque placeat consequuntur alias. 
+                    Quos molestiae quae quasi odio enim sit! Commodi modi unde quidem quis, nulla soluta doloribus reiciendis atque quas!
+                </p>
+                <div ondlbclick="alert('En el div')">
+                <img id="img" src="images/imagen-logo-square.jpg" alt="Imagen :)" onclick="alert('AAAAAAAAAAAAAAAA')">
+            </div>
+                <input type="button" value="Da click" onclick="alert('¡Oh!¡Diste click!')">
+                <input type="button" value="Hola Mundo" onclick="mostrarHolaMundo()">
+                <!--<div class="row">
+                    <section>
+                        <form action="#" method="GET">
+                            <p>
+                                Nombre:
+                                <input type="text" id="txtNombre" id="txtNombre">
+                            </p>
+                            <p>
+                                <input type="button" value="Da Click">
+                            </p>
+                        </form>
+                    </section>
+                </div>
+                <div class="row">
+                    <footer>
+                        Copyright Gera
+                    </footer>
+                </div>-->
+                <input type="button" id="btnSaludo" value="Saludo">
+                <input type="button" id="bntSaludo2" value="Saludo">
+                <input type="button" id="btnSaludo3" value="Saludo">
+            </div>
+    
+    <script src="script/jquery-3.4.1.min.js"></script>    
+    <script src="script/popper.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
