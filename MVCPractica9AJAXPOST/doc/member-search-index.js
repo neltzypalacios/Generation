@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.mvcpractica9ajaxpost.model","c":"Matematicas","l":"calculaPotencia(int, int)","url":"calculaPotencia(int,int)"},{"p":"com.mvcpractica9ajaxpost.model","c":"Matematicas","l":"Matematicas()","url":"%3Cinit%3E()"}]
