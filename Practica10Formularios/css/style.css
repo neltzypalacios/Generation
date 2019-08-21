@@ -1,0 +1,10 @@
+input[type=text]
+{
+    background-color: brown
+}
+
+body
+{
+    background: white url(../images/proxy.duckduckgo.com.jfif) no-repeat top right;
+    background-size: 1024px 768px;
+}
