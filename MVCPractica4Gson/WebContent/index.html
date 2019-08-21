@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+        <div class="container">
+                <div class="row">
+                    <header>
+                        <h2>MVC Practica 4 Gson</h2>
+                    </header>
+                </div>
+                <div class="row">
+                    <section>
+                        <form action="perroServlet" method="POST">
+                            <p>
+                                Nombre:
+                                <input type="text" id="txtNombre" name="txtNombre">
+                            </p>
+                            <p>
+                            	<label>Color:</label>
+                                <input type="text" id="txtColor" name="txtColor">
+                            </p>
+                            <p>
+                                <label>Raza:</label>
+                                <input type="text" id="txtRaza" name="txtRaza">
+                            </p>
+                            <p>
+                                <label>Edad:</label>
+                                <input type="text" id="txtEdad" name="txtEdad">
+                            </p>
+                            <p>
+                            	<input type="submit" value="Enviar">
+                            </p>
+                            
+                        </form>
+                        
+                        <form action="SerializaServlet" method="post">
+                        	<p>
+                        		<label for="txtJson">Teclea tu Json</label>
+                        		<input type="txt" id="txtJson" name="txtJson">
+                        	</p>
+                        	<p>
+                        		<input type="submit" value="Serialización">
+                        	</p>
+                        </form>
+                        
+                    </section>
+                </div>
+                <div class="row">
+                    <footer>
+                        Copyright Neltzy
+                    </footer>
+                </div>
+            </div>
+    
+    <script src="script/jquery-3.4.1.min.js"></script>    
+    <script src="script/popper.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
