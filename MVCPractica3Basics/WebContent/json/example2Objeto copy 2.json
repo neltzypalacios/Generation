@@ -1,0 +1,9 @@
+
+//Ejemplo 2 Json Objetos, 1 Objeto
+{
+    "Nombre": "Janny",
+    "Apellido": "Irepan",
+    "Edad": 90,
+    "Telefono": 73842734,
+    "Password": 37642784
+}

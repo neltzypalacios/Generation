@@ -1,0 +1,26 @@
+
+//Ejemplo 5 Json de Objetos con Arrays
+
+{
+    "Persona 1":{
+        "nombre": "Oscar",
+        "apellido": "Santana",
+        "apodos": 
+        [
+            "Zeus", 
+            "Hercules", 
+            "Macho"
+        ],
+    "Alumnos":
+        {
+            "alumno1": {
+                "nombre": "Jebus",
+                "pagina web": "http://hebus.com" //Redireccionando a un recurso
+            }
+
+
+        }
+    }
+
+    }
+}

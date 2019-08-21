@@ -1,0 +1,17 @@
+//Ejemplo 4 Json Objetos varios con sus nombres
+{
+    "Persona2": {
+        "Nombre":"Diana",
+        "Apellido": "Campos",
+        "Estatura": 1.34,
+        "Edad": 90,
+    },
+    "Persona3": {
+        "Nombre": null,
+        "Apellido": null,
+        "Estatura": null,
+        "Edad": null,
+        "isSoltero": false,
+        "isPeloNegro": true
+    }
+}

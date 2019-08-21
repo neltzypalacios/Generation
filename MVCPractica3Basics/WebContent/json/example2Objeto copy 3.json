@@ -1,0 +1,10 @@
+//Ejemplo 3 Json Objetos, 1 Objeto con su nombre
+{
+    "Persona1": {
+        "Nombre":"Axel",
+        "Apellido": "Unzón",
+        "Edad": 76,
+        "Telefóno": 13454540,
+        "Password": 3473294
+    }
+}
