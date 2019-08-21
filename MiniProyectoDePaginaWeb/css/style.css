@@ -1,0 +1,50 @@
+body
+{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: azure;
+}
+
+nav
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#modal-body
+{
+    text-align: center;
+}
+
+
+#credits
+{
+    width: 100%;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.card-group
+{
+    width: 100%;
+}
+
+.card
+{
+    text-align: center;
+    
+}
+
+div
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row
+{
+    margin-left: auto;
+    margin-right: auto;
+}

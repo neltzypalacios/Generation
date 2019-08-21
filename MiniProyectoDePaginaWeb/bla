@@ -1,0 +1,30 @@
+<!--CONTAINER-->
+        <div class="container">
+                <!--FIRST ROW-->            
+                <div class="row">
+                    <header>
+                        <h2>Practica 8 JavaScript</h2>
+                    </header>
+                </div>
+
+                <div class="row">
+                    <section>
+                        <form action="#" method="GET">
+                            <p>
+                                Nombre:
+                                <input type="text" id="txtNombre" id="txtNombre">
+                            </p>
+                            <p>
+                                <input type="button" value="Da Click">
+                            </p>
+                        </form>
+                    </section>
+                </div>
+
+                <!--FOOTER-->
+                <div class="row">
+                    <footer>
+                        Copyright Gera
+                    </footer>
+                </div>
+        </div>

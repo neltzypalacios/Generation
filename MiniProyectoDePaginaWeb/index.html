@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--HEAD-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--FONTS - FONT AWESOME-->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!--BOOTSTRAP & CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <title>Document</title>
+    
+</head>
+
+<!--BODY-->
+<body>
+    <div class="container">
+        <!--NAVBAR-->
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#!">CUCEIEats</a>
+                      
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#!">¿Quiénes somos?<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#!">Dos</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#!">Tres</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="#!">Contacto</a>
+                            </li>
+                          </ul>
+                          <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Buscar comida o servicio..." aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                          </form>
+                        </div>
+                </nav>
+            </div> 
+        </div>     
+    </div>
+
+    <!--IMAGE BANNER-->
+    <div class="row">
+        <div class="col-12">
+          <!--Carousel Wrapper-->
+          <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+          <!--Indicators-->
+             <ol class="carousel-indicators">
+               <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+               <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+               <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+             </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+              <div class="carousel-inner" role="listbox">
+              <!--First slide-->
+                 <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/slide1.png"
+                    alt="First slide">
+                 </div>
+              <!--/First slide-->
+              <!--Second slide-->
+                 <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slide2.png"
+                    alt="Second slide">
+                 </div>
+              <!--/Second slide-->
+              <!--Third slide-->
+                 <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slide3.png"
+                     alt="Third slide">
+                 </div>
+              <!--/Third slide-->
+              </div>
+          <!--/.Slides-->
+          <!--Controls-->
+              <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+          <!--/.Controls-->
+            </div>
+          <!--/.Carousel Wrapper-->
+        </div>
+    </div>
+
+    <!--USERS-->
+    <div class="row">
+      <!--VENDEDOR-->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-12">
+            <article class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Vendedor</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">Poner imagen</h6>
+
+                      <!--BOTON DE LOGIN-->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                      Entrar
+                      </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                         <div class="modal-dialog" role="document">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                   </button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="" method="POST">
+                                  <p>
+                                    <label for="txtCorreo" >Correo: </label>
+                                    <input type="textCorreo" name="txtCorreo">
+                                  </p>
+                                  <p>
+                                    <label for="txtPassword" >Contraseña: </label>
+                                    <input type="textPassword" name="txtPassword">
+                                  </p>
+                                  <p>
+                                      <a href="cambiarPassword.html">¿Olvidaste tu Contraseña?</a>
+                                  </p>
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                 <button type="button" class="btn btn-primary">Entrar</button>
+                              </div>
+                            </div>
+                         </div>
+                     </div>
+
+                      <!--REGISTRO-->
+                      <!--AVISO DE PRIVACIDAD-->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                      Registrarse
+                      </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Registro</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <form action="" method="POST">
+                                  <p>
+                                    <label for="txtNombre">Nombre: </label>
+                                    <input type="text" name="txtNombre" id="txtNombre">
+                                  </p>
+                                  <p>
+                                      <label for="txtApellidos" >Apellidos: </label>
+                                      <input type="text" name="txtApellidos" id="txtApellidos">
+                                  </p>
+                                  <p>
+                                      <label for="txtLicenciatura" >Carrera: </label>
+                                      <select name="txtCarrera">
+                                          <option value="LIFI">LIFI</option>
+                                          <option value="QFB">QFB</option>
+                                          <option value="IQ">IQ</option>
+                                        </select>
+                                  </p>
+                                  <p>
+                                    <label for="txtCorreo" >Correo: </label>
+                                    <input type="text" name="txtCorreo">
+                                  </p>
+                                  <p>
+                                    <label for="txtTelefono" >No. de celular: </label>
+                                    <input type="text" name="txtTelefono">
+                                  </p>
+                                  <p>
+                                    <label for="txtPassword" >Contraseña: </label>
+                                    <input type="text" name="txtPassword">
+                                  </p>
+                                  <p>
+                                      <input type="checkbox" name="acepto" value="acepto" checked>
+                                      <label for="acepto" >Acepto las <a href="#!">condiciones de privacidad.</a>
+                                      </label>
+                                  </p>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                              <button type="submit" class="btn btn-primary" id="save-event">Acepto</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+            </article>
+        </div>
+
+      <!--COMPRADOR-->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-12">
+            <article class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Comprador</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">Poner imagen</h6>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, iusto! Blanditiis doloribus ducimus molestiae consequatur dolore ipsa, exercitationem
+                      </p>
+
+                      <!--BOTON DE LOGIN-->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                      Entrar
+                      </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                         <div class="modal-dialog" role="document">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                   </button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="" method="POST">
+                                  <p>
+                                    <label for="txtCorreo" >Correo: </label>
+                                    <input type="textCorreo" name="txtCorreo">
+                                  </p>
+                                  <p>
+                                    <label for="txtPassword">Contraseña: </label>
+                                    <input type="textPassword" name="txtPassword">
+                                  </p>
+                                  <p>
+                                      <a href="cambiarPassword.html">¿Olvidaste tu Contraseña?</a>
+                                  </p>
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                 <button type="button" class="btn btn-primary">Entrar</button>
+                              </div>
+                            </div>
+                         </div>
+                     </div>
+
+                      <!--REGISTRO-->
+                      <!--AVISO DE PRIVACIDAD-->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                      Registrarse
+                      </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Registro</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <form action="" method="POST">
+                                  <p>
+                                    <label for="txtNombre" >Nombre: </label>
+                                    <input type="text" name="txtNombre" id="txtNombre">
+                                  </p>
+                                  <p>
+                                      <label for="txtApellidos" >Apellidos: </label>
+                                      <input type="text" name="txtApellidos" id="txtApellidos">
+                                  </p>
+                                  <p>
+                                      <label for="txtCarrera" >Carrera: </label>
+                                      <select name="txtCarrera">
+                                          <option value="LIFI">LIFI</option>
+                                          <option value="QFB">QFB</option>
+                                          <option value="IQ">IQ</option>
+                                        </select>
+                                  </p>
+                                  <p>
+                                    <label for="txtCorreo" >Correo: </label>
+                                    <input type="text" name="txtCorreo">
+                                  </p>
+                                  <p>
+                                    <label for="txtTelefono" >No. de celular: </label>
+                                    <input type="text" name="txtTelefono">
+                                  </p>
+                                  <p>
+                                    <label for="txtPassword" >Contraseña: </label>
+                                    <input type="text" name="txtPassword">
+                                  </p>
+                                  <p>
+                                      <input type="checkbox" name="acepto" value="acepto" checked>
+                                      <label for="acepto" >Acepto las <a href="#!">condiciones de privacidad.</a>
+                                      </label>
+                                  </p>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                              <button type="submit" class="btn btn-primary" id="save-event">Acepto</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+            </article>
+        </div>
+      <!--ADMINISTRADOR-->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-12">
+            <articule class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Administrador</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">
+                      </p>
+                      
+                       <!--BOTON DE LOGIN-->
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                          Entrar
+                          </button>
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                             <div class="modal-dialog" role="document">
+                               <div class="modal-content">
+                                  <div class="modal-header">
+                                     <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                       </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <form action="" method="POST">
+                                      <p>
+                                        <label for="txtCuenta" >Cuenta: </label>
+                                        <input type="textCuenta" name="txtCuenta">
+                                      </p>
+                                      <p>
+                                        <label for="txtPassword">Contraseña: </label>
+                                        <input type="textPassword" name="txtPassword">
+                                      </p>
+                                    </form>
+                                  </div>
+                                  <div class="modal-footer">
+                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                     <button type="button" class="btn btn-primary">Entrar</button>
+                                  </div>
+                                </div>
+                             </div>
+                         </div>
+
+                    </div>
+            </articule>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="row">
+        <footer id="credits">
+            Este es un copyright
+        </footer>
+    </div>
+
+
+  
+  
+  
+  
+  
+    <!--SCRIPTS FOR JQUERY, POPPER, BOOTSTRAP AND JS-->
+    <script src="script/jquery-3.4.1.min.js"></script>    
+    <script src="script/popper.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
